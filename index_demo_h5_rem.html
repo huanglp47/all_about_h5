@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta content="email=no" name="format-detection">
+    <title>H5 rem</title>
+    <style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    div {
+        margin: 0 auto;
+    }
+    
+    p {
+        font-size: 0.3rem;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>1.假设设计图以640px设计，那么15px的元素在不同的手机下，大小应该不同，但是都是0.3rem</p>
+        <p>2.超过640px;不再调整</p>
+    </div>
+    <script>
+    (function() {
+        ! function(document, window) {
+            "use strict";
+            var doc, resizeFn, eventName;
+            return doc = document.documentElement,
+                eventName = 'orientationchange' in window ? "orientationchange" : 'resize',
+                resizeFn = function() {
+                    var client_width = null;
+                    return (client_width = doc.clientWidth) ?
+                        (client_width >= 640 ? (client_width = 640, document.body.style.width = "640px") :
+                            document.body.style.width = client_width + 'px',
+                            doc.style.fontSize = 100 * (client_width / 640) + 'px',
+                            doc.dataset.percent = 100 * (client_width / 640)) : 'undefined';
+                },
+                resizeFn(),
+                document.addEventListener ? window.addEventListener(eventName, resizeFn, false) : 'undefined';
+        }(document, window)
+    }).call(this);
+    </script>
+</body>
+
+</html>
