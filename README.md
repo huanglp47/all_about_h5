@@ -1,6 +1,6 @@
 # all_about_h5
 html5,css3  
-web app一般会有这两种主要布局： 
+web app一般会有这三种主要布局： 
 ## 1.媒体查询响应式   
 ```css
 @media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
