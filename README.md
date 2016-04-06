@@ -20,9 +20,9 @@ web app一般会有这两种主要布局：
 ## 3.rem布局：  
 使用js动态计算font-size的值（例子：[网易](http://3g.163.com/touch/all?version=v_standard) [淘宝](https://m.taobao.com/?sprefer=sypc00#index)）  
   * 1.设置viewport  
-  ```html
+```html
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui" />  
-    ```html  
+ ```html  
     
   * 2.js代码放到head里，第一时间计算好html的fontSize，避免重绘。  
   
