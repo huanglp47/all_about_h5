@@ -12,7 +12,8 @@ web app一般会有这两种主要布局：
       font-size:20px;
     }
 }
-## 2.流式布局。width:100% + flexbox;高度大都是用px来固定住。  
+## 2.流式布局。width:100% + flexbox;高度大都是用px来固定住。 
+
 ## 3.rem布局：  
 使用js动态计算font-size的值（例子：[网易](http://3g.163.com/touch/all?version=v_standard) [淘宝](https://m.taobao.com/?sprefer=sypc00#index)）  
   * 1.设置viewport  
