@@ -19,5 +19,6 @@ web app一般会有这两种主要布局：
   * 1.设置viewport  
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui" />  
   * 2.js代码放到head里，第一时间计算好html的fontSize，避免重绘。  
+  
   * 计算规则：假设设计图是基于640px(750类似算法)设计，那么屏幕宽度 client_width=document.documentElement.clientWidth，fontSize = 100*(client_width/640)+'px';当分辨率变化时（触发横竖屏事件orientationchange或者浏览器resize）。则通过addEventListener做绑定
 
