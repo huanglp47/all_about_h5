@@ -1,0 +1,157 @@
+body{
+    font-size: 14px;
+    font-size: 0.4375rem;
+}
+
+.app-page{background-color: #000;}
+.app-page .content {
+    position: relative;
+    width: 10rem;
+    background: url(../image/bg.jpg) no-repeat center 0 #540700;
+    background-size: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    overflow: hidden;
+}
+.app-page .app-title, .app-bouns-page .app-title {
+    background: url("http://j5.dfcfw.com/app/20160302224134963.png") no-repeat;
+    width: 10rem;
+    height: 4.8125rem;
+    background-size: 100%;
+    margin-top: 1.375rem;
+}
+
+.app-page .app-hb {
+    background: url("../image/hb_bg.png") no-repeat top center;
+    width: 8.40625rem;
+    height: 5.953125rem;
+    background-size: 100%;
+    margin: 1.05rem auto;
+    position: relative;
+}
+.dcapp-page .app-hb {
+    background: url("../image/apphb-bg.png") no-repeat;
+    width: 8.515625rem;
+    height: 7.84375rem;
+    background-size: 100%;
+    position: relative;
+    margin: 1.05rem auto;
+}
+.dcapp-page .app-hb a.gethb{
+    position: absolute;
+    bottom: 0.45rem;
+    width: 74%;
+    left: 50%;
+    margin-left: -37%;
+}
+.dcapp-page .app-hb .tel{
+    position: absolute;
+    width: 74%;
+    margin-left: -37%;
+    left: 50%;
+    bottom: 2.2rem;
+}
+.con-wrapper{
+    background: url("../image/dchb-bg.png") no-repeat;
+    width: 8.40625rem;
+    height: 6.453125rem;
+    background-size: 100%;
+    margin: 2rem auto 0px auto;
+    position: relative;
+}
+.con-wrapper h2{
+    padding-top: 3.2rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.5625rem;
+}
+.con-wrapper h2 strong{
+    font-size: 0.6625rem;
+    color: #fff100;
+}
+.con-wrapper a{
+    display: block;
+    text-decoration: none;
+    width: 5.5625rem;
+    height: 1.25rem;
+    margin: 0.5rem auto;
+    text-align: center;
+    color: #ce2121;
+    font-weight: bold;
+    line-height: 1.25rem;
+    background-color: #fff100;
+    border-radius: 0.15rem;
+    font-size: 0.65rem;
+}
+.dcapp-page .guideTips{
+    text-align: center;
+    color: #fff;
+    font-size: 0.40625rem;
+    /* background: #fff; */
+    opacity: 0.8;
+    /* border: 1px solid grey; */
+}
+.dcapp-page .hbclose{
+    position: absolute;
+    width: 0.9375rem;
+    height: 0.9375rem;
+    display: block;
+    top: 0px;
+    right: 0.45rem;
+}
+.rule {
+    font-size: 0.390625rem;
+    width: 90%;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+/*dc app page*/
+
+.con-wrapper{
+    background: url("../image/dchb-bg.png") no-repeat;
+    width: 8.40625rem;
+    height: 6.453125rem;
+    background-size: 100%;
+    margin: 2rem auto 0px auto;
+    position: relative;
+}
+.con-wrapper h2{
+    padding-top: 3.2rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.5625rem;
+}
+.con-wrapper h2 strong{
+    font-size: 0.6625rem;
+    color: #fff100;
+}
+.con-wrapper a{
+    display: block;
+    text-decoration: none;
+    width: 5.5625rem;
+    height: 1.25rem;
+    margin: 0.5rem auto;
+    text-align: center;
+    color: #ce2121;
+    font-weight: bold;
+    line-height: 1.25rem;
+    background-color: #fff100;
+    border-radius: 0.15rem;
+    font-size: 0.65rem;
+}
+.dcapp-page .guideTips{
+    text-align: center;
+    color: #fff;
+    font-size: 0.40625rem;
+    /* background: #fff; */
+    opacity: 0.8;
+    /* border: 1px solid grey; */
+}
